@@ -1,0 +1,3 @@
+HumanMessage(content="I ordered a product last week"),
+AIMessage(content="I can help you with that. What's your order number?"),
+HumanMessage(content="Order #12345")
