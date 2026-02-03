@@ -38,6 +38,7 @@ result = chain.invoke({
     "text" : "The Bhagat Singh"
 })
 print(result)
+chain.get_graph().print_ascii() # pip install grandalf for this to work
 
 # what we do here first we create a template1 for first input and template 2 for second input using Runnable we do parallel processing of both inputs now we move on after parallel processing we go for a merging which is further done by chain 
 # Note : chain.invoke gives input to both tamplate1 and template2 simultaneously
